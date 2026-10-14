@@ -1,0 +1,14 @@
+{
+  "name": "teaboom-product-card",
+  "version": "1.0.0",
+  "description": "Карточка товара Ананасовый улун",
+  "author": "Aleksey Kerkin <aleksey.kerkin@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass --watch ./assets/styles/main.scss ./assets/styles/styles.css",
+    "build": "sass ./assets/styles/main.scss ./assets/styles/styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}
