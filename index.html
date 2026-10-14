@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ананасовый улун — светлый фуцзяньский улун с ароматом ананаса. Фасовки 100, 500, 1000 и 5000 г." />
+    <title>Ананасовый улун</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <article class="product" aria-labelledby="product-title">
+        <figure class="product__media">
+          <img
+            class="product__image"
+            src="./assets/images/ananasovij-ulun.jpg"
+            width="970"
+            height="970"
+            alt="Сухие скрученные листья ананасового улуна с кусочками ананаса" />
+        </figure>
+
+        <div class="product__info">
+          <p class="product__category">
+            <span class="visually-hidden">Категория: </span>Ароматизированный улун
+          </p>
+          <h1 class="product__title" id="product-title">Ананасовый улун</h1>
+
+          <fieldset class="product__packs">
+            <legend class="product__legend">Фасовка</legend>
+            <div class="product__options">
+              <input
+                class="product__radio visually-hidden"
+                type="radio"
+                name="pack"
+                id="pack-100"
+                value="100"
+                checked
+                data-sku="01306"
+                data-price="326,40"
+                data-old-price="349,20" />
+              <label class="product__option" for="pack-100">100 г</label>
+
+              <input
+                class="product__radio visually-hidden"
+                type="radio"
+                name="pack"
+                id="pack-500"
+                value="500"
+                data-sku="01307"
+                data-price="1&nbsp;432"
+                data-old-price="1&nbsp;646" />
+              <label class="product__option" for="pack-500">500 г</label>
+
+              <input
+                class="product__radio visually-hidden"
+                type="radio"
+                name="pack"
+                id="pack-1000"
+                value="1000"
+                data-sku="01308"
+                data-price="2&nbsp;064"
+                data-old-price="2&nbsp;592" />
+              <label class="product__option" for="pack-1000">1000 г</label>
+
+              <input
+                class="product__radio visually-hidden"
+                type="radio"
+                name="pack"
+                id="pack-5000"
+                value="5000"
+                data-sku="01309"
+                data-price="6&nbsp;320"
+                data-old-price="8&nbsp;710" />
+              <label class="product__option" for="pack-5000">5000 г</label>
+            </div>
+          </fieldset>
+
+          <div class="product__offer" aria-live="polite" aria-atomic="true">
+            <dl class="product__details">
+              <div class="product__detail">
+                <dt class="product__term">Артикул</dt>
+                <dd class="product__value" id="product-sku">01306</dd>
+              </div>
+              <div class="product__detail">
+                <dt class="visually-hidden">Старая цена</dt>
+                <dd class="product__value">
+                  <s class="product__price product__price--old">
+                    <span id="product-old-price">349,20</span>
+                    <span aria-hidden="true"> ₽</span>
+                    <span class="visually-hidden"> руб.</span>
+                  </s>
+                </dd>
+              </div>
+              <div class="product__detail">
+                <dt class="visually-hidden">Цена</dt>
+                <dd class="product__value">
+                  <span class="product__price">
+                    <span id="product-price">326,40</span>
+                    <span aria-hidden="true"> ₽</span>
+                    <span class="visually-hidden"> руб.</span>
+                  </span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <button class="product__cart" type="button">
+            В корзину
+            <span class="visually-hidden" id="cart-context">, Ананасовый улун, 100 г</span>
+          </button>
+
+          <section class="product__description" aria-labelledby="description-title">
+            <h2 class="product__description-title" id="description-title">Описание</h2>
+            <p class="product__description-text">
+              Состав: китайский бирюзовый чай, цукаты, натуральные ароматические масла.
+              Светлый Фуцзяньский улун с ароматом ананаса. В сухом виде — красивый крупный
+              лист изумрудного цвета, скруткой листа напоминающий Те Гуань Инь. В прогретой
+              посуде аромат свежей, весенней зелени и спелого ананаса. Скрученный лист
+              медленно раскрывается, отдавая весь свой аромат.
+            </p>
+          </section>
+        </div>
+      </article>
+    </main>
+    <script src="./assets/scripts/main.js" defer></script>
+  </body>
+</html>
